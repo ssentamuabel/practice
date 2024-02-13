@@ -5,12 +5,19 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import FunctionComponent from './components/FunctionComponent'
+import ClassClick from './components/ClassClick'
+import EventBind from './components/EventBind'
 
 function App() {
   return (
     <div className="App">
 
-      <Counter />
+      <EventBind />
+
+    {/* <FunctionComponent /> */}
+    {/* <ClassClick /> */}
+      {/* <Counter /> */}
 
     {/* <Message /> */}
           {/* <Greatings  firstname="Ssentamu" secondname="Abel">
