@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Table from './components/Table';
+
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 
 function App() {
   return (
     <div className="App">
-      <Table/>
+      <RefsDemo />
     </div>
   );
 }
